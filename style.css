@@ -1,0 +1,138 @@
+body {
+	background-color: black;
+	position: absolute;
+}
+
+.container {
+	background-color: white;
+	margin: auto;
+}
+
+.header {
+	background-image: url(img/beauty.jpg);
+	height: 400px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 45px;
+	margin: 0 auto;
+}
+
+.menu {
+	border-bottom: 3px solid rgb(170, 171, 174);
+	border-top: 3px solid rgb(170, 171, 174);
+	background-color: rgb(185, 199, 232);
+}
+
+.menu ul {
+	display: inline;
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline;
+	font-size: 27px;
+	margin-right: 20px;
+	margin-left: 30px;
+	padding-left: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav {
+	float: right;
+	background-image: url("img/perfume2.jpg");
+	background-repeat: no-repeat;
+	color: black;
+	font-size: 15px;
+	font-family: fantasy;
+	margin-top: 35px;
+	padding-right: 35px;
+}
+
+.nav li {
+	color: black;
+	font-size: 23px;
+	font-family: fantasy;
+	margin-left: 70px;
+	margin-top: 50px;
+	padding-bottom: 30px;
+	list-style-type: none;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+#section {
+	float: left;
+	margin-left: 20px;
+	background-color: #ccccff;
+	margin-top: 25px;
+	max-width: 76%;
+	border-style: solid;
+	border-color: rgb(170, 171, 174);
+}
+
+.text-box {
+	clear: both;
+	min-width: 90%;
+	background-color: #ccccff;
+}
+
+.article {
+	clear: both;
+	background: #ccccff;
+	text-align: center;
+	padding-bottom: 20px;
+	min-width: 90%;
+	margin: 0 auto;
+}
+
+.article p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+.news-box {
+	clear: both;
+	align-content: center;
+	text-align: center;
+	min-width: 90%;
+}
+
+.news {
+	float: left;
+	text-align: center;
+	background-color: white;
+	width: 45%;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.news2 {
+	float: left;
+	display: inline-block;
+	background-color: red;
+	text-align: center;
+	width: 45%;
+	padding-left: 25px;
+	padding-right: 26px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(235, 150, 130);
+}
+
+.footer {
+	clear: both;
+	background-color: white;
+	text-align: center;
+	padding: 10px;
+}
